@@ -4,7 +4,7 @@ export default function Dates() {
 }
 
 Dates.prototype.getDay = function () {
-  // const date1 = new Date(this.longDate);
-  // const dateArray = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-  // this.weekday = dateArray[date.getDay()];
+  const date1 = new Date(this.longDate);
+  const dateArray = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+  this.weekday = dateArray[date1.getDay()];
 }
