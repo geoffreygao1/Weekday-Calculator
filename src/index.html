@@ -2,17 +2,17 @@
 <html lang="en">
 
 <head>
-  <script type="text/javascript" src="bundle.js"></script>
   <title>Weekday Calculator</title>
 </head>
 
 <body>
   <h1>Weekday Calculator</h1>
-  <form>
+  <form id="dateForm">
     <label for="dateInput">Date:</label>
-    <input type="date">
-    <button id="convertDate" type="submit">Convert!</button>
+    <input type="date" id="dateInput" required="true">
+    <button id="convertButton" type="submit">Which day is it?</button>
   </form>
+  <div id="result"></div>
 </body>
 
 </html>
