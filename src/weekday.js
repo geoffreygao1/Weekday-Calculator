@@ -3,13 +3,8 @@ export default function Dates() {
   this.weekday = "";
 }
 
-// run some function 
-// change this.weekday to "Monday" or something
-
 Dates.prototype.getDay = function () {
-  const date = this.longDate; //format: 'YYYY-MM-DD'
-  const dayOfTheWeek =
-// pull the longDate property
-// calculation ....
-// apply the answer to the weekday property
+  // const date1 = new Date(this.longDate);
+  // const dateArray = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+  // this.weekday = dateArray[date.getDay()];
 }
